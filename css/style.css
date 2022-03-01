@@ -75,6 +75,7 @@ body{
   color: #fff;
   text-align: center;
   margin-bottom: 0.5em;
+  color:darkgreen;
 }
 .logo span {
   font-size: 0.6em;
@@ -82,7 +83,7 @@ body{
 }
 .top-menu{
 text-align:center;
-  border-top: 2px solid #F7F5F5;
+  border-top: 2px solid #a53737;
     width: 71%;
   margin: 0 auto;
 }
@@ -94,14 +95,14 @@ text-align:center;
 .top-menu ul li a {
   font-size: 1.3em;
   text-decoration: none;
-  color: #fff;
+  color: rgb(88, 22, 150);
   font-family: 'Droid Sans', sans-serif;
 }
 .top-menu ul li a:hover {
-  color: #f0c75e;
+  color:darkgreen;
 }
 .top-menu ul li a.active {
-  color: #f0c75e;
+  color:darkgreen;
 }
  span.menu {
   display: none;
@@ -121,7 +122,7 @@ p.banner-center {
 }
 .banner-grids {
   position: absolute;
-  top: 125px;
+  margin-top: -120px;
   left: 0;
   width: 100%;
 }
@@ -377,6 +378,7 @@ position:relative;
   line-height: 1.8em;
   color: #fff;
   margin-bottom:0.5em;
+  background: rgba(51,51,51,0.5);
 }
 .testmonial-text h4{
 font-size: 1.5em;
@@ -385,6 +387,7 @@ font-size: 1.5em;
   font-weight: 500;
   text-align:center;
     padding-top: 1em;
+    background: rgba(51,51,51,0.5);
   }
 .test-monials {
   margin-top: 5em;
@@ -779,6 +782,7 @@ p.banner-center {
 }
 .banner-grids {
    top: 85px;
+   
 }
 .left-grid {
   float: left;
@@ -992,16 +996,32 @@ p.banner-center {
 }
 }
 @media only screen and (max-width: 640px){
+  /*smarphones*/
 .header {
   min-height: 707px;
 }
 .logo a {
-  font-size: 3em;
+  font-size: 2em;
+  overflow: hidden;
+  width: 240px;
+  height: 240px;
+  margin-left: -50px;
+  margin-top: -140px;
 }
+
 .logo {
   margin: 0 auto;
   width: 30%;
 }
+.top-menu{
+  margin-top: -220px;
+  }
+  .banner-grids{
+    margin-top: 100px;
+  }
+  .about-header h3{
+    margin-top: -210px;
+  } 
 
 .right-grid h3 {
   font-size: 1.5em;
